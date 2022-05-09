@@ -1,0 +1,12 @@
+﻿@using (Html.BeginForm("SaveUser", "Home"))
+{
+<p>
+    User Name:  @Html.TextBox("UserName")
+</p>
+
+<p>
+    Password:  @Html.Password("Password")
+</p>
+
+    <input type ="submit" value="Add User" />
+}
